@@ -3,8 +3,11 @@
 Este projeto é uma aplicação prática do módulo Service Cloud com IA da trilha Decola Tech 2025 da DIO. O objetivo foi utilizar o o Azure AI Services + Azure Storage para criar um sistema de análise automatizada de reviews (como avaliações de produtos, comentários, etc.)
 
 Com os serviços da Azure, é possível:
+
 ✅ Armazenar reviews através de textos, arquivos de reviews (CSV, JSON, etc.) no Azure Blob Storage.
+
 ✅ Processar os dados usando Azure AI Services.
+
 ✅ Automatizar análises (sentimento, palavras-chave, tradução, categorização).
 
 Passo a passo na prática:
@@ -25,5 +28,5 @@ Alguns passos são bem técnicos e estão relacionados com a necessidade do neg�
     - A AI Azure processa os dados com modelos pré-treinados (análise de sentimentos, extração de palavras-chave, tradução, etc.).
     - Na pesquisa que fiz como exemplo, utilizei o filtro de conteúdo 'don't like' para extrair as situações que o review mencionava esta expressão;
     - O AI AZure é um modelo pré-treinado pela Microsoft e o serviço devolve metadados como: sentimentos (positivo/neutro/negativo), entidades (nomes de produtos, marcas) e tópicos principais (ex.: "entrega", "qualidade").
-    
+
 ![alt text](<src/Passo 13.png>)
